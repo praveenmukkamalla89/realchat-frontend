@@ -40,19 +40,20 @@
     margin: 5px;
     padding: 10px;
     border-radius: 10px;
-    max-width: 80%;
+    max-width: 50%;
     word-wrap: break-word;
 }
 
 /* Alpha's messages style (light blue) */
 .chat-bubble.alpha {
     background-color: lightblue;
-    align-self: flex-start; /* Align to left for Alpha's messages */
+    align-self: flex-end; /* Align to left for Alpha's messages */
 }
 
 /* Beta's messages style (light green) */
 .chat-bubble.beta {
     background-color: lightgreen;
+    margin-left: 270px;
     align-self: flex-end; /* Align to right for Beta's messages */
 }
 
@@ -62,7 +63,6 @@ input[type="text"] {
     margin-bottom: 10px;
     border-radius: 5px;
     border: 1px solid #ccc;
-    width: 100%;
 }
 
 button {
